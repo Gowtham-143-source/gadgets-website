@@ -1,0 +1,58 @@
+.main1{
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    display: grid;
+    padding-top: 15px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:larger;
+}
+.main2{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to bottom left, coral,green);
+    /* row-gap: 20px; */
+    height: 100vh;
+ } 
+.p{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,1fr);
+    column-gap:60px;
+    animation: prab 2s linear  ;
+    
+}
+@keyframes prab{
+    0%{
+        transform: translatex(-100%);
+    }
+}
+ .one{
+    width: 100%;
+    height: 195px;
+    margin-top: 50px;
+    box-shadow: black 0px 10px 10px;
+    background-color: aliceblue;
+    /* background-image: url(./img/vijay\ sachin.jpg); */
+    background-size: 100% 200%;
+    box-sizing: border-box;
+ } 
+@media screen and (min-width:1200px) {  
+     .p{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+     }    
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .p{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (min-width:700px) and (max-width:991px){
+    .p{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}

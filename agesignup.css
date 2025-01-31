@@ -1,0 +1,60 @@
+.background{
+   
+    height: 585px;
+    width: 100%;
+    border: solid transparent;
+    background-image: url(./img/pexels-abdou-hilali.jpg);
+}
+.body{
+    height: 400px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 100px;
+    border: 1px solid transparent;
+    border-radius: 20px 0px;
+    box-shadow: 20px 20px 60px;
+    background: transparent ;
+    align-content: space-around;
+    justify-content: flex-start;
+}
+.body :hover{
+    
+    background-color: rgb(223, 142, 240);
+    border-radius: 50px;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 184, 230);
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
+input{
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    background-color: aquamarine;
+    color:darkmagenta;
+
+}
+
+button{
+    margin-left: 120px;
+    color:rgb(255, 168, 6);
+    background-color:aquamarine;
+}
+.aa video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .aa video{
+        width: 100%;
+        /* height: fit-content; */
+    }
+    
+}
+
+ 

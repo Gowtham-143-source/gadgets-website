@@ -1,0 +1,103 @@
+.background{
+  height: 588px;
+  width: 100%;
+  border: 2px ;
+  background-image: url(./img/technology\ and\ gadgets.jpg);
+}
+p{
+  color: rgb(201, 214, 18);
+  font-size: large;
+  text-decoration:underline;
+}
+.head{
+  color:rgb(201, 214, 18);
+  text-align: center;
+  width: 50%;
+  padding-left: 300px;
+}
+.head1{
+  color: #04f7ff;
+  font-size:x-large;
+  font-weight: bold;
+  text-align: center;
+}
+footer{ 
+    padding: 0px;
+    color: rgb(63, 141, 209);
+    margin: 20px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+}
+.footer-content{
+    width: 100%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 10px;
+    color: #04f7ff;
+}
+h2{
+  padding: 2px;
+  margin: 30px;
+  color: #04f7ff;
+}
+
+.list{
+    padding: 0;
+}
+.list a{
+    color: rgb(201, 214, 18);
+    text-decoration: underline;
+}
+.list li{
+    width: auto;
+    padding: 2px;
+    margin-left:110px;
+    display: grid;
+    font-weight: lighter;
+    font-size: large;
+}
+.social-icons{
+    text-align:justify;
+    padding: 0;
+    margin: 0px;
+    display:contents;
+    
+}
+.social-icons li{
+    display: block;
+    text-align:center;
+    padding: 5px;
+}
+.social-icons i{
+    color: rgb(228, 10, 10);
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #04f7ff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #8811cc;
+    font-weight: bold;
+    margin-bottom: auto;
+    font-size: 16px;
+    padding: 1px;
+    background-position: bottom;
+} 
